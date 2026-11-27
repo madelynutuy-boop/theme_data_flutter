@@ -25,7 +25,7 @@ class AppTheme{
   backgroundColor: colorScheme.primary,
   foregroundColor: colorScheme.onPrimary,
   centerTitle: true,
-  elevation: 6,
+  elevation: 5,
   shadowColor: Colors.black45,
   iconTheme: IconThemeData(
     color:Colors.white,
@@ -37,8 +37,8 @@ class AppTheme{
   ),
   
   titleTextStyle: TextStyle(
-    letterSpacing: 5,
-    fontSize: 25,
+    letterSpacing: 3,
+    fontSize: 20,
     fontWeight: FontWeight.bold,
     color: Colors.white,
   ),
@@ -109,7 +109,7 @@ class AppTheme{
       ),
       inputDecorationTheme: InputDecorationTheme(
         filled: true,
-        fillColor: Colors.deepPurple.shade100,
+        fillColor: const Color.fromARGB(255, 237, 230, 250),
         contentPadding: EdgeInsets.symmetric(horizontal: 16, vertical: 16),
         border: OutlineInputBorder(
           borderRadius: BorderRadius.circular(15),
@@ -138,9 +138,9 @@ class AppTheme{
         shape: RoundedRectangleBorder(borderRadius: BorderRadiusGeometry.circular(4)) ),
 
         sliderTheme: SliderThemeData(
-          activeTrackColor: colorScheme.primary,
-          inactiveTrackColor: Colors.black,
-          thumbColor: Colors.greenAccent
+          activeTrackColor: colorScheme.secondary,
+          inactiveTrackColor: const Color.fromARGB(181, 230, 213, 213),
+          thumbColor: const Color.fromARGB(255, 7, 36, 131)
         ),
         chipTheme: ChipThemeData(
           backgroundColor: colorScheme.primary,
